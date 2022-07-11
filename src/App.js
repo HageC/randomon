@@ -1,8 +1,13 @@
+import { Fragment } from "react";
+import { Navbar, SearchBar, List, Listitem } from "./components/index";
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <Fragment>
+      <Navbar />
+      <SearchBar />
+      <List />
+      <Listitem />
+    </Fragment>
   );
 }
 
